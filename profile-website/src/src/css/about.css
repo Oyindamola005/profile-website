@@ -4,7 +4,7 @@
 body {
     width: 100%;
     overflow: auto;
-    background-color: rgb(255, 255, 255);
+    background-color: #f8f8f9;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -81,12 +81,15 @@ a {
     margin: 0;
     padding: 0px 5%;
     box-sizing: border-box;
+    align-items: center;
 }
-.about-me-text {
+.about-text {
     display: flex;
     flex-direction: column;
     gap: 16px;
     padding: 0px 100px;
+    align-items: flex-start;
+    justify-self: center;
 }
 .about-me img {
     height:800px;
